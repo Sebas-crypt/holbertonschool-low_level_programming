@@ -1,6 +1,12 @@
-#!/bin/bash
-//using puts to print hello world
-char* str1 = "Programming is like building a multilingual puzzle";
-puts(str1);
-puts()
-return 0;
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char str1 = "Programming is like building a multilingual puzzle\n";
+	puts(str1);
+	return (0);
+}
