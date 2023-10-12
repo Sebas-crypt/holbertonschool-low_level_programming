@@ -1,0 +1,2 @@
+#!/bin/bask
+gcc -c $CFILE
