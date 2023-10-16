@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-	int n;
-	srand (time(0));
-	n = rand() - RAND_MAX / 2;
-	int n(rand()*20)
+	awk'BEGIN{print int(rand() *10)}'
 	return(0)
 }
