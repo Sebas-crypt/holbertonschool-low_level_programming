@@ -1,12 +1,16 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/**
- * main - Entry point
- *
- * Return:Always 0(Success)
- */
+
 int main(void)
 {
-	awk BEGIN{print int(rand()*10)}
-	return(0)
+
+	int randomnumber;
+	int max;
+	srand(time(NULL));
+	randomnumber = rand() % 30;
+	printf("This is your random number\n %d", ramdomnumber);
+	getchar(n);
+	return (0);
+
 }
