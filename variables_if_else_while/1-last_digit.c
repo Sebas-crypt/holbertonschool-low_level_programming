@@ -7,8 +7,8 @@
  * Return: Always 0
  */
 int main(void)
-int n;
 {
+	int n;
 	int n = n % 10;
 
 	srand(time(0));
