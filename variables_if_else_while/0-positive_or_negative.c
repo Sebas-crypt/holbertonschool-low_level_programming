@@ -2,15 +2,17 @@
 #include <stdio.h>
 #include <time.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
+	int n;
 
-	int randomnumber;
-	int max;
-	srand(time(NULL));
-	randomnumber = rand() % 30;
-	printf("This is your random number\n %d", ramdomnumber);
-	getchar(n);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	
 	return (0);
-
 }
