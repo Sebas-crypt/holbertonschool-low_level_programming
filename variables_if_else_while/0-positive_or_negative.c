@@ -17,7 +17,7 @@ int main(void)
 	printf; ("%d is postive \n, n")
 	(if n > 0)
 	printf; ("%d is equal \n, n")
-	(if n = 0)
+	(if n == 0)
 	pritnf; ("%d is negative \n, n")
 	(if n < 0)
 	return (0);
