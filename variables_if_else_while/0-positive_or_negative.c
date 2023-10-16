@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	awk'BEGIN{print int(rand() *10)}'
+	awk BEGIN{print int(rand()*10)}
 	return(0)
 }
