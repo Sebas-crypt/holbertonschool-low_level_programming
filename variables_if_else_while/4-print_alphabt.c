@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	if (string[q] == string[q-1])
+	if (string[q] == string[q - 1])
 	{
 		string[q] = '\0';
 	}
