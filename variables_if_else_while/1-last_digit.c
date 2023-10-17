@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - prints a text accord number
  *
- * Return: Always 0
+ * Return: Always Success
  */
 int main(void)
 {
