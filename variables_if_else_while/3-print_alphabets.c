@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main - program
- * int ch - introduce ch
- * for = for every ch <= print body
+ * print_alphabets - alphabets in caps
  *
  * Return: Always 0
  */
 
-main print_alphabets(void)
+int main(void)
 {
 	int ch;
 
-	for (ch; 'a'; ch <= 'z') ch++;
-
-	for (ch; 'A'; ch <= 'Z') ch++;
-
+	for (ch; 'a'; ch <= 'z'; ch++)
 	{
-		putchar (ch);
+		putchar(ch);
 	}
-	putchar ('\n');
+
+	for (ch; 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
