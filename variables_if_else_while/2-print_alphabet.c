@@ -1,4 +1,4 @@
-#include <"main.h">
+#include <stdio.h>
 /**
  * main - starting my program
  * int ch - introduce ch
@@ -6,7 +6,7 @@
  *
  * Return: Always 0
  */
-main print_alphabet(void)
+int main(void)
 {
 	int ch;
 
@@ -15,5 +15,6 @@ main print_alphabet(void)
 	{
 		putchar (ch);
 	}
+	putchar ('\n')
 	return (0);
 }
