@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_alphabets - alphabets in caps
+ * main - alphabets in caps
  *
  * Return: Always 0
  */
