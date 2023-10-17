@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-int main(void)
+main print_alphabets(void)
 {
 	int ch;
 
