@@ -12,6 +12,10 @@ int main(void)
 	{
 		putchar(ch);
 	}
+	if (string[q] == string[q-1])
+	{
+		string[q] = '\0';
+	}
 	putchar('\n');
 	return (0);
 }
