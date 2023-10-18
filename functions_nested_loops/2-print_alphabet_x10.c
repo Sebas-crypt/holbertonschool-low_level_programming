@@ -3,12 +3,12 @@
  * print alphabet - print alphabet x10
  * Return: void
  */
-void print_alphabet_x10(void)
+main print_alphabet_x10(void)
 {
 	char c;
 	int ch;
 
-	while(ch <= 9)
+	while (ch <= 9)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
@@ -16,6 +16,5 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
-
 	}
 }
