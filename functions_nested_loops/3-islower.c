@@ -1,16 +1,9 @@
 #include "main.h"
-#include <ctype.h>
 /**
- * int _islower - 1 if c is lower case
+ * _islower - check for lower case
  * Return: Always 0
  */
-int _islower(int)
+int _islower(int c)
 {
-	int c;
-	if (c >= 97 && c <= 122)
-
-	{
-		return (1);
-	}
-	return (0);
+	return (c >= 'a' && c <= 'z');
 }
