@@ -4,7 +4,7 @@
  * islower - 1 if c is lower case
  * Return: Always 0
  */
-int _islower(void)
+int _islower(int c)
 {
 	int c;
 	
