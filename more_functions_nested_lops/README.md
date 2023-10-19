@@ -1,8 +1,3 @@
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	README.md
-
-nothing added to commit but untracked files present (use "git add" to track)
+[master 5433172] opiium
+ 1 file changed, 8 insertions(+)
+ create mode 100644 more_functions_nested_lops/README.md
