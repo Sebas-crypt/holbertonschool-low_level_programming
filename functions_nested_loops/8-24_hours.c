@@ -15,19 +15,19 @@ void jack_bauer(void)
 			{
 				break;
 			}
-				for (r = 0; r <= 5; r++)
+			for (r = 0; r <= 5; r++)
+			{
+				for (k = 0; k <= 9; k++)
 				{
-					for (k = 0; k <= 9; k++)
-					{
-						_putchar(b + '0');
-						_putchar(e + '0');
-						_putchar(58);
-						_putchar(r + '0');
-						_putchar(k + '0');
-						_putchar('\n');
-					}
+					_putchar(b + '0');
+					_putchar(e + '0');
+					_putchar(58);
+					_putchar(r + '0');
+					_putchar(k + '0');
+					_putchar('\n');
 				}
 			}
+		}
 		}
 	}
 }
