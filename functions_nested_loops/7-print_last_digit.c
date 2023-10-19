@@ -11,10 +11,10 @@ int print_last_digit_(int n)
 
 	if (n < 0 && n != INT_MIN)
 	{
-		lastd = ((-1; * n) % 10);
+		lastd = ((-1 * n) % 10);
 		_putchar (lastd + '0');
 	}
-	else if ( n == INT_MIN)
+	else if (n == INT_MIN)
 	{
 		lastd = 217483648;
 		_putchar((lastd % 10) + '0');
