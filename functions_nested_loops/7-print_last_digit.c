@@ -7,23 +7,23 @@
  */
 int print_last_digit_(int n)
 {
-	int lastd;
+	int ld;
 
 	if (n < 0 && n != INT_MIN)
 	{
-		lastd = ((-1 * n) % 10);
-		_putchar (lastd + '0');
+		ld = ((-1 * n) % 10);
+		_putchar (ld + '0');
 	}
 	else if (n == INT_MIN)
 	{
-		lastd = 217483648;
-		_putchar((lastd % 10) + '0');
-		return (lastd % 10);
+		ld = 217483648;
+		_putchar((ld % 10) + '0');
+		return (ld % 10);
 	}
 	else
 	{
-		lastd = (n % 10);
-		_putchar(lastd + '0');
+		ld = (n % 10);
+		_putchar(ld + '0');
 	}
-	return (lastd);
+	return (ld);
 }
