@@ -2,4 +2,4 @@ CC = gcc
 SRC = main.o school.o
 NAME = school
 all: ${OBJ}
-				$(CC) $(OBJ) -o $(NAME)
+				${CC} ${OBJ} -o ${NAME}
