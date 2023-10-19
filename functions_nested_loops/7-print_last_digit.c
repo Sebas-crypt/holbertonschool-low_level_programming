@@ -4,7 +4,7 @@
  * @n: number to be treated
  * Return: value of the last digit
  */
-int print_last_digit_(int n)
+int print_last_digit_(int)
 {
 	int lst;
 
