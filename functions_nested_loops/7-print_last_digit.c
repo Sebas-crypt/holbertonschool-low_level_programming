@@ -4,18 +4,25 @@
  * @n: number to be treated
  * Return: value of the last digit
  */
-int print_last_digit_(int)
+int print_last_digit_(int n)
 {
-	int lst;
+	int lastd;
 
-	lst = n % 10;
-
-	if (lst < 0)
+	if (n < 0 && n != INT_MIN)
 	{
-		lst = lst * -1;
+		lastd = ((-1; * n) % 10);
+		_putchar (lastd + '0');
 	}
-
-	_putchar(lst + '0');
-
-	return (lst);
+	else if ( n == INT_MIN)
+	{
+		lastd = 217483648;
+		_putchar((lastd % 10) + '0');
+		return (lastd % 10);
+	}
+	else
+	{
+		ld = (n % 10);
+		_putchar(ld + '0');
+	}
+	return (lastd);
 }
