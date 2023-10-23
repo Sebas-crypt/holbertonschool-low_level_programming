@@ -3,7 +3,7 @@
  * reset_to_98 - change value
  * @n: variable to change
  */
-void restes_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
