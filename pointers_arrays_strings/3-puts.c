@@ -15,8 +15,8 @@ void _puts(char *str)
 
 		for (i = 0; p[i] != '\0'; i++)
 		{
-			printf("&str[%d] = %p\n", i, p + i);
+			_putchar([i]);
 		}
 	}
-	return (void);
+	_putchar('\n')
 }
