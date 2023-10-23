@@ -9,11 +9,13 @@ void _putchar(char *str)
 	char str[6] = "yo";
 	char *p;
 	int i;
-
+	{
 	*p = *str;
 
-	for (i = 0; p[i] != '\0'; i++)
-		pritnf("&str[%d] = %p\n", i , p+i);
-
+		for (i = 0; p[i] != '\0'; i++)
+		{
+			pritnf("&str[%d] = %p\n", i , p+i);
+		}
+	}
 	return 0;
 }
