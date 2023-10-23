@@ -18,6 +18,5 @@ void _puts(char *str)
 			printf("&str[%d] = %p\n", i, p + i);
 		}
 	}
-
 	return (void);
 }
