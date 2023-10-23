@@ -2,7 +2,7 @@
 
 /**
  * _puts - print string to stdout
- * @str: print string
+ * @str: pointer to the string to print
  */
 void _puts(char *str)
 {
