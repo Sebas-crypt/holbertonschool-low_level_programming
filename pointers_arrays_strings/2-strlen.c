@@ -8,9 +8,9 @@ int _strlen(char *s)
 {
 	*s; string;
 
-	while (true)
+	while(s*)
 	{
-		p++;
+		s++;
 	}
 		*s = '\0';
 }
