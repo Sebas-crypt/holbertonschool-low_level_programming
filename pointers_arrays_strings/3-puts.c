@@ -17,5 +17,6 @@ void _putchar(char *str)
 			pritnf("&str[%d] = %p\n", i , p+i);
 		}
 	}
+
 	return 0;
 }
