@@ -27,7 +27,7 @@ int _atoi(char *s)
 		{
 			digit = s[i] - '0';
 
-		if (d % 2)
+		if (d%2)
 			digit = -digit;
 		n = n * 10 + digit;
 		f = 1;
@@ -37,9 +37,8 @@ int _atoi(char *s)
 		f = 0;
 		i++;
 		}
-
-		if (f == 0)
-			return (0);
 	}
+		if (f == 0)
+		return (0);
 	return (n);
 }
