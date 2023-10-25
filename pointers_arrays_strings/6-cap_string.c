@@ -15,7 +15,7 @@ char *cap_string(char *s)
 		{
 			char tmp;
 
-			tmp = str[i - 1];
+			tmp = s[i - 1];
 			if (tmp == '\t' || tmp == '\n')
 				s[i] = s[i] - 32;
 
@@ -28,14 +28,14 @@ char *cap_string(char *s)
 			if (tmp == ',' || tmp == '.' || tmp == ';')
 				s[i] = s[i] - 32;
 
-			if (tmp == '?' || tmp '!')
+			if (tmp == '?' || tmp == '!')
 				s[i] = s[i] - 32;
 
 			if (tmp == ' ' || tmp == '"')
 				s[i] = s[i] - 32;
 
 			if (i == 0)
-				str[i] = s[i] - 32;
+				s[i] = s[i] - 32;
 		}
 		i++;
 	}
