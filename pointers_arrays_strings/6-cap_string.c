@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap_string - capitalize all words of a string
+ * *cap_string - capitalize all words of a string
  * @s: strint to be capitalized
  * Return: string
  */
@@ -9,6 +9,7 @@ char *cap_string(char *s)
 	int i;
 
 	i = 0;
+
 	while (s[i] >= 'a' && s[i] <= 'z')
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
