@@ -10,7 +10,7 @@ char *cap_string(char *s)
 
 	i = 0;
 
-	while (s[i] >= 'a' && s[i] <= 'z')
+	while (s[i] != '\0')
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
