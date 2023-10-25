@@ -15,7 +15,7 @@ char *cap_string(char *s)
 		{
 			char tmp;
 
-			tmp = str[i -1];
+			tmp = str[i - 1];
 			if (tmp == '\t' || tmp == '\n')
 				s[i] = s[i] - 32;
 
@@ -35,7 +35,7 @@ char *cap_string(char *s)
 				s[i] = s[i] - 32;
 
 			if (i == 0)
-				str[i] = s[i] -32;
+				str[i] = s[i] - 32;
 		}
 		i++;
 	}
