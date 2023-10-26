@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *_strstr - function to locate a substring
- * @haystack: string to search 
+ * @haystack: string to search
  * @needle: string to find
  * Return: 0
  */
@@ -17,7 +17,7 @@ char *_strstr(char *haystack, char *needle)
 				break;
 		}
 		if (needle[j])
-			return (haystack[i]);
+			return (&haystack[i]);
 	}
 	return (0);
 }
