@@ -1,4 +1,6 @@
 #include "main.h"
+
+int actual_sqrt_recursion(int n, int i);
 /**
  * _sqrt_recursion - return 1 if input is a prime number if not 0
  * @n: number to calculate
@@ -6,28 +8,22 @@
  */
 int _sqrt_recursion(int n)
 {
- if (n == 0 || n == 1) 
-		{
-	        return n;
-		}
-		int sqrt = _sqrt_recursion(n / 2);
+	if (n < 0)
+		return (-1);
+	return (actual_sqrt_recursion(n, 0));
+}
 
-		if (sqrt * sqrt == n) 
-		{
-	        return sqrt;
-		}
-		if (sqrt * sqrt > n) 
-		{
-	        return _sqrt_recursion(n / 2 - 1);
-		}
-	    return _sqrt_recursion(n / 2 + 1);
-	}
-	
-	int main() {
-		int number = 16;
-		int squareRoot = _sqrt_recursion(number);
-
-		printf("The square root of %d is %d\n", number, squareRoot);
-
-	return 0;
+/**
+ * actual_sqrt_recursion - find the natural
+ * @n: number to calculate
+ * @i: iterator
+ * Return: 0
+ */
+int actual_sqrt_recursion(int n, int i)
+{
+	if (i * i > n)
+		return (-1);
+	if (i * i == n)
+		return (i);
+	return (actual_sqrt_recursion(n, i + 1));
 }
