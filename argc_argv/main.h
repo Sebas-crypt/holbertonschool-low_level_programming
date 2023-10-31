@@ -1,2 +1,7 @@
-int _putchar(int ch)
-int main(int argc __attribute__((unused)), char *argv[]);
+#ifndef FILE_MAIN
+#define FILE_MAIN
+
+int _putchar(char c);
+int _atoi(char *s);
+
+#endif
