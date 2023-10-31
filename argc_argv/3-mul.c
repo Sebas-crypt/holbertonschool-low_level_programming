@@ -6,7 +6,7 @@
  * @argv: multiply
  * Return: 0
  */
-int main(int argc, char *argv[])
+int _atoi(char *s)
 {
 int i, d, n, len, f, digit;
 
