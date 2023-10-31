@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - multiplies 2 numbers
- * @argc: numbers
- * @argv: multiply
+ * _atoi - multiplies 2 numbers
+ * @s: digit
  * Return: 0
  */
+
 int _atoi(char *s)
 {
-int i, d, n, len, f, digit;
+	int i, d, n, len, f, digit;
 
 	i = 0;
 	d = 0;
