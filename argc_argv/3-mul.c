@@ -4,7 +4,8 @@
  * main - multiplies 2 numbers
  * @argc: numbers
  * @argv: multiply
- * Return: 0
+ * Return: if the program receives two arguments - 0.
+ * if the program does not receive two arguments - 1.
  */
 int main(int argc, char *argv[])
 {
