@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - add positive numbers
- * @argc: number of args passed
- * @argv: array of pointers to args
+ * _atoi - convert a string to integer
+ * @s: string to be converted
  * Return: (0)
  */
-int main(int argc, char *argv[])
+int _atoi(char *s)
 {
 	int i, j, n, len, f, dgt;
 
@@ -28,7 +27,7 @@ int main(int argc, char *argv[])
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			dgt = s[i] - '0';
-			if (d % 2)
+			if (j % 2)
 				dgt = -dgt;
 			n = n * 10 + dgt;
 			f = 1;
@@ -56,7 +55,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][d] != '\0'; d++)
+		for (d = 0; argv[i][d] != '\0'; d++)
 		{
 			if (argv[i][d] > '9' || argv[i][d] < '0')
 			{
