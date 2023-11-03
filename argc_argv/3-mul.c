@@ -1,12 +1,13 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * _atoi - multiplies 2 numbers
- * @s: digit
+ * main - multiplies 2 numbers
+ * @argc: counts input in command line
+ * @argv: array of strings
  * Return: 0
  */
 
-int _atoi(char *s)
+int main(int argc, char **argv)
 {
 	int n, j;
 
