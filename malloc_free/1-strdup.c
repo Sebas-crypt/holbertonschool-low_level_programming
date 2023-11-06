@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup_ - retunr a pointer to a newly located space in memory
+ * *_strdup - return a pointer to a newly located space in memory
  * @str: string to be copied
- * Return - NULL
+ * Return: NULL
  */
 char *_strdup(char *str)
 {
@@ -20,7 +20,7 @@ char *_strdup(char *str)
 
 	if (dup == NULL)
 		return (NULL);
-	
+
 	for (i = 0; str[i]; i++)
 		dup[i] = str[i];
 
