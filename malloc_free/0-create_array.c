@@ -6,7 +6,7 @@
  * @c: specific char to initialize
  * Return: if 0 or the function fails - NULL
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int index;
