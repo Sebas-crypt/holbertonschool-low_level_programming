@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _calloc - alocate memory
- * @nmebmb: number of elements
+ * @nmemb: number of elements
  * @size: byte size
  * Return: NULL
  */
