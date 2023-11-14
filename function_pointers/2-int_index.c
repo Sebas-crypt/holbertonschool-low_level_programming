@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 /**
  * int_intex - searches for integer
+ * @array: array to search
  * @size: size of the array
  * @cmp: pointer to the comparing function
  * Return: 0
