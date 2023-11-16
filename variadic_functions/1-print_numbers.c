@@ -5,6 +5,7 @@
  * print_numbers - prints numbers
  * @separator: string to be printed
  * @...: variable number to be printed
+ * @n: number of integers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
