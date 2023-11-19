@@ -1,11 +1,13 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - print results
- * @argc: number of args
- * @argv: array of pointers
- * Return: 0
+ * main - Prints the result of simple operations
+ * @argc: The number of args supplied to the program
+ * @argv: An array of pointers to the args
+ *
+ * Return: Always 0.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
